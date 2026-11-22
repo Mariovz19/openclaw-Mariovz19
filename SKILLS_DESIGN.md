@@ -6,6 +6,7 @@ Este documento describe el diseño de dos skills que se implementarán en OpenCl
 
 
 1. Diario de aprendizaje diario
+
 ¿Qué hace esta skill?
 
 Recibe los aprendizajes del día, los organiza y añade una entrada estructurada a un Google Doc que funciona como diario personal de conocimiento.
@@ -23,6 +24,7 @@ Destino: Un Google Doc utilizado como diario personal de aprendizaje.
 ¿Cómo sabré que funcionó?: La nueva entrada aparece correctamente en el documento, con la fecha correspondiente y sin eliminar las entradas anteriores.
 
 2. Notas de reunión
+   
 ¿Qué hace esta skill?
 
 Transforma apuntes desordenados de una reunión en un resumen organizado con decisiones, tareas pendientes y preguntas abiertas.
