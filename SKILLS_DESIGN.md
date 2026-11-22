@@ -1,7 +1,9 @@
-Diseño de Skills para OpenClaw
+#SKILLS_DESIGN.md
+
+##Diseño de Skills para OpenClaw
 
 Este documento describe el diseño de dos skills que se implementarán en OpenClaw. Cada skill tiene un propósito específico, requiere información sencilla del usuario y genera resultados que se pueden guardar y consultar posteriormente.
-________________________________________________________________________________________
+
 
 1. Diario de aprendizaje diario
 ¿Qué hace esta skill?
