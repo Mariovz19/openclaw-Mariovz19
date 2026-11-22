@@ -21,7 +21,7 @@ No es necesario indicar nuevamente dónde guardar la información si el destino 
 Formato: Entrada organizada con fecha, título, aprendizajes principales y una breve reflexión.
 Destino: Un Google Doc utilizado como diario personal de aprendizaje.
 
-¿Cómo sabré que funcionó?: La nueva entrada aparece correctamente en el documento, con la fecha correspondiente y sin eliminar las entradas anteriores.
+Cómo sabré que funcionó: La nueva entrada aparece correctamente en el documento, con la fecha correspondiente y sin eliminar las entradas anteriores.
 
 2. Notas de reunión
    
@@ -43,7 +43,7 @@ Tareas pendientes y responsables.
 Preguntas abiertas.
 Destino: Google Drive, guardado como un nuevo documento de Google Docs.
 
-¿Cómo sabré que funcionó?: El documento aparece en Drive con un título identificable, las secciones completas y las tareas claramente asignadas cuando se conoce al responsable.
+Cómo sabré que funcionó: El documento aparece en Drive con un título identificable, las secciones completas y las tareas claramente asignadas cuando se conoce al responsable.
 Criterios generales de diseño
 Las dos skills deben poder ejecutarse varias veces.
 El agente debe interpretar texto natural sin exigir formatos complicados.
