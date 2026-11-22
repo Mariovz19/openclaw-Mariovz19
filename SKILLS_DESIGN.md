@@ -1,4 +1,3 @@
-SKILLS_DESIGN.md
 Diseño de Skills para OpenClaw
 
 Este documento describe el diseño de dos skills que se implementarán en OpenClaw. Cada skill tiene un propósito específico, requiere información sencilla del usuario y genera resultados que se pueden guardar y consultar posteriormente.
@@ -6,7 +5,7 @@ Este documento describe el diseño de dos skills que se implementarán en OpenCl
 1. Diario de aprendizaje diario
 ¿Qué hace esta skill?
 
-Recibe los aprendizajes del día, los organiza y añade una entrada estructurada a un Google Doc que funciona como diario personal de conocimiento.
+Recibe los aprendizajes del día, los organiza y añade una entrada estructurada a un Google Docs que funciona como diario personal de conocimiento.
 
 ¿Qué input necesita el agente?
 Una lista de los aprendizajes del día en texto o viñetas.
@@ -15,7 +14,7 @@ A partir de los cinco archivos de configuración, el agente ya conoce la identid
 No es necesario indicar nuevamente dónde guardar la información si el destino ya está configurado.
 ¿Cómo es un buen output?
 Formato: Entrada organizada con fecha, título, aprendizajes principales y una breve reflexión.
-Destino: Un Google Doc utilizado como diario personal de aprendizaje.
+Destino: Un Google Docs utilizado como diario personal de aprendizaje.
 Cómo sabré que funcionó: La nueva entrada aparece correctamente en el documento, con la fecha correspondiente y sin eliminar las entradas anteriores.
 2. Notas de reunión
 ¿Qué hace esta skill?
@@ -41,16 +40,10 @@ Las dos skills deben cumplir los siguientes criterios:
 
 Poder ejecutarse varias veces.
 Interpretar texto natural sin exigir formatos complicados.
-Conservar la información anterior cuando se agreguen nuevas entradas.
+Conservar la información anterior en los documentos existentes.
 Generar resultados claros, ordenados y fáciles de consultar.
-Confirmar cuando una operación se complete correctamente.
-No inventar información, responsables, fechas o acuerdos que no estén presentes en los datos proporcionados.
-Informar al usuario cuando no sea posible guardar un documento o completar una operación.
-4. Resultado esperado
+Confirmar al usuario cuando una operación se complete correctamente.
 
-Al finalizar la implementación, OpenClaw contará con dos skills personalizadas:
-
-Diario de aprendizaje diario: permitirá registrar y organizar conocimientos adquiridos cada día en un Google Doc.
-Notas de reunión: permitirá transformar apuntes desordenados en documentos estructurados y guardarlos en Google Drive.
-
-Ambas habilidades deberán estar implementadas como skills nativas de OpenClaw, mediante sus respectivos directorios y archivos SKILL.md, y no como simples prompts ejecutados en la terminal.
+Documento: SKILLS_DESIGN.md
+Proyecto: OpenClaw
+Propósito: Definición funcional y diseño de skills.
